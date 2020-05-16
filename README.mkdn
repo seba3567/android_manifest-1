@@ -21,16 +21,18 @@ Credits
 How to Build?
 -------------
 
+This is a stupid question if you are already an official maintainer. Nevertheless, do not use this manifest if you build unofficially. We will not help you with errors or repo sync failures.
+
 To initialize your local repository using the ExtendedReborn trees, use a 
 command like this:
 
 ```bash
-  repo init -u git://github.com/ExtendedReborn/android_manifest.git -b android_10
+  repo init -u git://github.com/ExtendedReborn/android_manifest.git -b android_10-official
 ```
 To initialize a shallow clone, which will save even more space & time, use a command like this:
 
 ```bash
-  repo init --depth=1 -u git://github.com/ExtendedReborn/android_manifest.git -b android_10
+  repo init --depth=1 -u git://github.com/ExtendedReborn/android_manifest.git -b android_10-official
 ```
   
 Then to sync up:
