@@ -2,11 +2,11 @@
 <manifest>
 
   <remote name="exui"
-          fetch="https://github.com/ExtendedReborn"
+          fetch="https://github.com/ShapeShiftOS"
           revision="android_10" />
   
     <remote name="exui-reborn"
-          fetch="https://github.com/ExtendedReborn"
+          fetch="https://github.com/ShapeShiftOS"
           revision="android_10-official" />
 
   <!-- Framework repos -->
